@@ -1,0 +1,29 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore dependencies (e.g., if using pipenv or poetry)
+Pipfile.lock
+poetry.lock
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore environment variables files (for sensitive info like API keys)
+.env
+
+# Ignore downloaded or generated files
+*.tar.gz
+*.zip
